@@ -33,7 +33,6 @@ function Mapa() {
   return (
     <WebView style={styles.mapa} source={{ uri: `https://www.google.com/maps/search/?api=1&query=${text}` }}>
       <StatusBar hidden={true} />
-      <Header></Header>
     </WebView>
   );
 }
@@ -44,7 +43,7 @@ export default Mapa;
 const styles = StyleSheet.create({
     mapa: {
         flex: 1,
-        width: 150,
+        // width: 150,
 
     }
 })
